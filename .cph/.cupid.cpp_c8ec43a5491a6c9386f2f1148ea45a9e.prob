@@ -1,0 +1,1 @@
+{"name":"Local: cupid","url":"c:\\Users\\HP\\Desktop\\c++\\cupid.cpp","tests":[{"id":1684209501279,"input":"3\n2\n13 88\n3\n2 3 1\n5\n4 3 2 1 4\n","output":"202\n13\n19"},{"id":1684211387537,"input":"1\n3\n1 1 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\c++\\cupid.cpp","group":"local","local":true}

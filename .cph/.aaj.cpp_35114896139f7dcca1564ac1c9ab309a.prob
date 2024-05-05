@@ -1,0 +1,1 @@
+{"name":"Local: aaj","url":"c:\\Users\\HP\\Desktop\\c++\\aaj.cpp","tests":[{"id":1683906194005,"input":"4\n5\n1 3 3 3 7\n2\n4 2\n4\n1 1 1 1\n7\n5 4 2 1 0 0 4\n","output":"2\n2\n1\n3\n"},{"id":1683906450982,"input":"1\n1\n1","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\c++\\aaj.cpp","group":"local","local":true}
