@@ -1,10 +1,10 @@
 #include<bits/stdc++.h>
 //#include <ext/pb_ds/assoc_container.hpp>
 //#include <ext/pb_ds/tree_policy.hpp>
- 
+
 using namespace std;
 //using namespace __gnu_pbds;
- 
+
 #define ff first
 #define ss second
 #define pb push_back
@@ -20,7 +20,7 @@ const int maxn = 2e6 + 6;
 const double eps = 1e-8;
 const int mod = 998244353;
 const int N=1e5+7;
- 
+
 //typedef tree<ll,null_type,less_equal<ll>,rb_tree_tag,tree_order_statistics_node_update>ordered_set;
 //ll powerFun(ll x, ll p){ll res = 1;for(int i = 1; i<=p; i++){res *= x;}return res;}
 //ll lcm(ll a, ll b){return (a * b) / __gcd(a, b);}
@@ -53,26 +53,31 @@ void execute(){
         vals[i]+=vals[i-1];
     }
     ll ans=1e18;
+    ll k = 0;
+    for
     for(int i=k-1;i<n;i++){
         ll l=0;
         if(i-k>=0) l=vals[i-k];
         ans=min(ans,vals[i]-l);
     }
-    cout<<ans<<endl;
+    for (int i = 0; i < ;i++){
+
+    }
+        cout << ans << endl;
 
 }
- 
+
 int main(){
- 
+
 ios_base::sync_with_stdio(false);
 cin.tie(NULL);cout.tie(NULL);
- 
+
 ll Testcases ;cin>>Testcases;
- 
+
 while(Testcases--){
- 
+
 execute();
- 
+
 }
 
 return 0;
